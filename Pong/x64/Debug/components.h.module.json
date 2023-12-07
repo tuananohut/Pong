@@ -5,14 +5,14 @@
         {
             "primary-output": "x64\\Debug\\Components.h.obj",
             "outputs": [
-                "C:\\Users\\tuana\\Desktop\\PROJELER\\C++ PROJELER\\Test Project\\Pong\\Pong\\x64\\Debug\\vc143.pdb",
+                "C:\\Users\\tuana\\Downloads\\Pong-main\\Pong-main\\Pong\\x64\\Debug\\vc143.pdb",
                 "x64\\Debug\\",
-                "C:\\Users\\tuana\\Desktop\\PROJELER\\C++ PROJELER\\Test Project\\Pong\\Pong\\x64\\Debug\\Components.h.ifc"
+                "C:\\Users\\tuana\\Downloads\\Pong-main\\Pong-main\\Pong\\x64\\Debug\\Components.h.ifc"
             ],
             "provides": [
                 {
                     "logical-name": "src\\Components.h",
-                    "source-path": "c:\\users\\tuana\\desktop\\projeler\\c++ projeler\\test project\\pong\\pong\\src\\components.h",
+                    "source-path": "c:\\users\\tuana\\downloads\\pong-main\\pong-main\\pong\\src\\components.h",
                     "lookup-method": "absolute"
                 }
             ],

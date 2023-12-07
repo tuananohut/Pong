@@ -67,7 +67,7 @@ void Game::spawnBall()
 	float ex = m_window.getSize().x / 2;
 	float ey = m_window.getSize().y / 2;
 
-	entity->cTransform = std::make_shared<CTransform>(Vec2(ex, ey), Vec2(3.0f, 1.0f), 0.0f);
+	entity->cTransform = std::make_shared<CTransform>(Vec2(ex, ey), Vec2(20.0f, 10.0f), 0.0f);
 
 	entity->cShape = std::make_shared<CShape>(20, 100, sf::Color::White, sf::Color::White, 4.0f);
 }
@@ -190,7 +190,7 @@ void Game::sRender()
 {
 	m_window.clear();
 	
-	if (!m_font.loadFromFile("../Pong/opensans.ttf"))
+	if (!m_font.loadFromFile("../Pong/font/opensans.ttf"))
 	{
 		std::cout << "work";
 
