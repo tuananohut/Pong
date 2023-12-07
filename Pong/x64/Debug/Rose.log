@@ -1,0 +1,87 @@
+﻿  Scanning sources for module dependencies...
+  Game.cpp
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(19,70): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(19,70): warning C4244:         with
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(19,70): warning C4244:         [
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(19,70): warning C4244:             T=unsigned int
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(19,70): warning C4244:         ]
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(20,70): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(20,70): warning C4244:         with
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(20,70): warning C4244:         [
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(20,70): warning C4244:             T=unsigned int
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(20,70): warning C4244:         ]
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(52,11): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(52,11): warning C4244:         with
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(52,11): warning C4244:         [
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(52,11): warning C4244:             T=unsigned int
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(52,11): warning C4244:         ]
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(81,11): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(81,11): warning C4244:         with
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(81,11): warning C4244:         [
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(81,11): warning C4244:             T=unsigned int
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(81,11): warning C4244:         ]
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(82,11): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(82,11): warning C4244:         with
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(82,11): warning C4244:         [
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(82,11): warning C4244:             T=unsigned int
+C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(82,11): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(241,76): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(241,76): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(241,76): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(241,76): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(241,76): warning C4244:         ]
+  (compiling source file 'src/Game.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(241,76):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\src\Game.cpp(86,24):
+  	see reference to function template instantiation 'std::shared_ptr<CShape> std::make_shared<CShape,int,int,const sf::Color&,const sf::Color&,float>(int &&,int &&,const sf::Color &,const sf::Color &,float &&)' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
+  	see reference to function template instantiation 'std::_Ref_count_obj2<CShape>::_Ref_count_obj2<_Ty,_Ty,const sf::Color&,const sf::Color&,float>(_Ty &&,_Ty &&,const sf::Color &,const sf::Color &,float &&)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
+  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int,int,const sf::Color&,const sf::Color&,float>(_Ty &,int &&,int &&,const sf::Color &,const sf::Color &,float &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CShape
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(251,14):
+  	see reference to function template instantiation '_Ty *std::construct_at<_Ty,int,int,const sf::Color&,const sf::Color&,float,0x0>(_Ty *const ,int &&,int &&,const sf::Color &,const sf::Color &,float &&) noexcept(<expr>)' being compiled
+          with
+          [
+              _Ty=CShape
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         ]
+  (compiling source file 'src/Game.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(242,90): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(242,90): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(242,90): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(242,90): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(242,90): warning C4244:         ]
+  (compiling source file 'src/Game.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(242,90):
+  the template instantiation context (the oldest one first) is
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
+  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int,int,const sf::Color&,const sf::Color&,float>(_Ty &,int &&,int &&,const sf::Color &,const sf::Color &,float &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CShape
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(251,14):
+  	see reference to function template instantiation '_Ty *std::construct_at<_Ty,int,int,const sf::Color&,const sf::Color&,float,0x0>(_Ty *const ,int &&,int &&,const sf::Color &,const sf::Color &,float &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CShape
+          ]
+  
+  main.cpp
+  Generating Code...
+  Rose.vcxproj -> C:\Users\tuana\Desktop\PROJELER\C++ PROJELER\Test Project\Pong\Pong\x64\Debug\Pong.exe

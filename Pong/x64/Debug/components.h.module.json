@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Components.h.obj",
+            "outputs": [
+                "C:\\Users\\tuana\\Desktop\\PROJELER\\C++ PROJELER\\Test Project\\Pong\\Pong\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "C:\\Users\\tuana\\Desktop\\PROJELER\\C++ PROJELER\\Test Project\\Pong\\Pong\\x64\\Debug\\Components.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "src\\Components.h",
+                    "source-path": "c:\\users\\tuana\\desktop\\projeler\\c++ projeler\\test project\\pong\\pong\\src\\components.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
