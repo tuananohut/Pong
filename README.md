@@ -8,15 +8,11 @@ https://youtu.be/LFKVBaVG3yY
 
 ### How to play?
 
-x64 -> Debug -> .exe file 
+You need Visual Studio 2022.
 
 Left player movement: W up, S down
 
-Right player movement: Page up up, Page down down, 
-
-### Bugs
-
-Fonts are not being drawn on your computer.
+Right player movement: Up arrow, Down arrow 
 
 ### Shoot The Shapes
 
