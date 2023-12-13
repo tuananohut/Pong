@@ -190,7 +190,7 @@ void Game::sRender()
 {
 	m_window.clear();
 	
-	if (!m_font.loadFromFile("../Pong/font/opensans.ttf"))
+	if (!m_font.loadFromFile("font/opensans.ttf"))
 	{
 		std::cout << "work";
 
